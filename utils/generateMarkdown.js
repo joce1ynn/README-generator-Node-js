@@ -6,35 +6,29 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if (license === "MIT") {
+    // link
+  } else {
+    ("");
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  return `this project is licensed under ${license}, for more info ...`;
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `
-  # ${data.title}
+  return `# ${data.title} 
 
-  ## Table of Contents
-
-  ## Description:
-  ${data.description}
-
-## Installation
-${data.installation}
-
-## Usage
-${data.usage}
-
-## Contribution
-${data.contribution}
-
-## Test-Instructions
-${data.tests}
+  ${data.github}
 
   ${renderLicenseBadge(data.license)}
+  ${renderLicenseSection(data.license)}
+  ${renderLicenseLink(data.license)}
 `;
 }
 
