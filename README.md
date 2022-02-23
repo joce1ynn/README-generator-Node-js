@@ -9,46 +9,44 @@
 - [Test Instructions](#test-instructions)
 - [Questions](#questions)
 
-### Description:
+## Description:
 This is a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
 
-### Technologies:
+## Technologies:
 Project is created with:
 - Javascript
 - Node.js
 - Inquirer.js
 
-### Installation
+## Installation
 To run this project, install it locally using npm:
 ```
 npm init -y
 npm i inquirer
 ```
 
-### Usage
+## Usage
 After installing npm packages, the application will be invoked by using the following command: ```node index.js```.
 It accepts user input, and can display the results on a formatted README file generated in the dist folder.
 
 #### Walkthrough Video
-[Click me to see the demo video!](https://www.awesomescreenshot.com/video/7015399?key=3428a892b1ac4c806df108fb1bf83f03)
+[Click me to see the demo video!](https://www.awesomescreenshot.com/video/7563793?key=7e4b1ca18097f8e750152047a023d920)
 
 #### Example Screenshot
-![Screenshot](/assets/images/ET-1.png)
-![Screenshot](/assets/images/ET-2.png)
-![Screenshot](/assets/images/ET-3.png)
+![Screenshot](/dist/RG.png)
 
-### License
+## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 This project is licensed under MIT, for more information please visit https://opensource.org/licenses/MIT
 
-### Contribution
+## Contribution
 Made by Wenwen Tian
 
-### Test Instructions
+## Test Instructions
 To run tests for this application, you can run the following command:
 `npm run test`
 
-### Questions?
+## Questions?
 Please feel free to contact me if you need any further information:
 - Email: jocelyntianww@gmail.com
 - Github Profile: https://github.com/joce1ynn

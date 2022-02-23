@@ -47,26 +47,26 @@ function generateMarkdown(data) {
 - [Test Instructions](#test-instructions)
 - [Questions](#questions)
 
-### Description:
+## Description:
 ${data.description}
 
-### Installation
+## Installation
 ${data.installation}
 
-### Usage
+## Usage
 ${data.usage}
 
-### License
+## License
 ${renderLicenseBadge(data.license)}
 ${renderLicenseSection(data.license)} ${renderLicenseLink(data.license)}
 
-### Contribution
+## Contribution
 ${data.contribution}
 
-### Test Instructions
+## Test Instructions
 ${data.tests}
 
-### Questions? 
+## Questions? 
 Please feel free to contact me if you need any further information:
 * Email: ${data.email}
 * Github Profile: https://github.com/${data.github}

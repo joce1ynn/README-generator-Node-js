@@ -1,4 +1,4 @@
-# joce1ynn
+# README Generator
   
   ## Table of Contents
 - [Description](#description)
@@ -9,26 +9,26 @@
 - [Test Instructions](#test-instructions)
 - [Questions](#questions)
 
-### Description:
-joce1ynn
+## Description:
+This is a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
 
-### Installation
-joce1ynn
+## Installation
+npm install
 
-### Usage
-joce1ynn
+## Usage
+node index.js
 
-### License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-This project is licensed under MIT, for more information please visit https://opensource.org/licenses/MIT
+## License
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+This project is licensed under Mozilla Public License 2.0, for more information please visit https://opensource.org/licenses/MPL-2.0
 
-### Contribution
-joce1ynn
+## Contribution
+Made by Jocelyn
 
-### Test Instructions
-joce1ynn
+## Test Instructions
+npm run test
 
-### Questions? 
+## Questions? 
 Please feel free to contact me if you need any further information:
-* Email: joce1ynn@emai.com
+* Email: jocelyn@email.com
 * Github Profile: https://github.com/joce1ynn
