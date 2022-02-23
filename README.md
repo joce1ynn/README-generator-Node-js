@@ -29,10 +29,10 @@ npm i inquirer
 After installing npm packages, the application will be invoked by using the following command: ```node index.js```.
 It accepts user input, and can display the results on a formatted README file generated in the dist folder.
 
-#### Walkthrough Video
+### Walkthrough Video
 [Click me to see the demo video!](https://www.awesomescreenshot.com/video/7563793?key=7e4b1ca18097f8e750152047a023d920)
 
-#### Example Screenshot
+### Example Screenshot
 ![Screenshot](/dist/RG.png)
 
 ## License
@@ -41,10 +41,6 @@ This project is licensed under MIT, for more information please visit https://op
 
 ## Contribution
 Made by Wenwen Tian
-
-## Test Instructions
-To run tests for this application, you can run the following command:
-`npm run test`
 
 ## Questions?
 Please feel free to contact me if you need any further information:
