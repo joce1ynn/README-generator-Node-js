@@ -61,7 +61,7 @@ const questions = [
     type:"list",
     name:"license",
     message:"Please choose the license:",
-    choices:["MIT", "Apache License 2.0", "The Unlicense"]
+    choices:["MIT", "Mozilla Public License 2.0", "The Unlicense"]
   }
 ];
 
@@ -78,7 +78,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
   inquirer.prompt(questions).then((answers) => {
-    writeToFile("READMEsample.md", answers);
+    writeToFile("./dist/READMEsample.md", answers);
     console.log(answers);
   });
 }
