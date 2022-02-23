@@ -6,7 +6,6 @@
 - [Usage](#usage)
 - [License](#license)
 - [Contribution](#contribution)
-- [Test Instructions](#test-instructions)
 - [Questions](#questions)
 
 ## Description:
@@ -36,7 +35,7 @@ It accepts user input, and can display the results on a formatted README file ge
 ![Screenshot](/dist/RG.png)
 
 ## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br>
 This project is licensed under MIT, for more information please visit https://opensource.org/licenses/MIT
 
 ## Contribution
